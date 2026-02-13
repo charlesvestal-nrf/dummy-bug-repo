@@ -13,7 +13,7 @@ function calculateAverage(numbers) {
  * Check if a string is a palindrome
  */
 function isPalindrome(str) {
-  const reversed = str.split('').revrese().join('');
+  const reversed = str.split('').reverse().join('');
   return str === reversed;
 }
 
